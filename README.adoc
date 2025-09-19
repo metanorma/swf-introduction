@@ -1,0 +1,76 @@
+= Spatial Web Foundation: Introduction to Spatial Web Protocol, Architecture & Governance
+
+image:https://github.com/metanorma/swf-introduction/workflows/generate/badge.svg["Build Status", link="https://github.com/metanorma/swf-introduction/actions?query=workflow%3Agenerate"]
+
+These documents are available in its rendered forms here:
+
+* https://metanorma.github.io/swf-introduction/[SWF Introduction in Metanorma (HTML)]
+
+== General
+
+This repository contains the Spatial Web Foundation's introduction document:
+
+* SWF 0:2024 (1.0.0) - Introduction to Spatial Web Protocol, Architecture & Governance
+
+This document serves as an introduction to The Spatial Web Protocol,
+Architecture and Governance specification, version D3.1, which defines
+requirements for the interoperability and governance of cyber-physical systems
+at a global scale, including autonomous devices, applications, spatial content,
+and operations.
+
+The Spatial Web merges the physical and virtual worlds, transcending geographic
+and national boundaries to create a global commons for expression and
+imagination. This convergence, enabled by decentralizing technologies,
+artificial intelligence, autonomous vehicles, robots, and the Internet of
+Things, heralds a new era of interconnectedness.
+
+== Structure
+
+`sources/`::
+source of the SWF introduction document
+
+`_site/`::
+(automatically generated, in the `gh-pages` branch) published document.
+
+== Usage
+
+This repository uses Metanorma to run these processes.
+
+To generate the document:
+
+[source,sh]
+----
+bundle exec metanorma site generate
+----
+
+== Installing build tools
+
+See https://www.metanorma.org/install/
+
+== Building the document
+
+If you have installed the build tools locally, and wish to run the
+locally-installed compilation tools, there is nothing further to set.
+
+If you use a locally installed Metanorma, run:
+
+[source,sh]
+----
+metanorma site generate
+----
+
+If you don't want to deal with local dependencies, use the docker
+version by:
+
+[source,sh]
+----
+docker run -v "$(pwd)":/metanorma -w /metanorma -it metanorma/mn metanorma site generate
+----
+
+
+== License
+
+This document is developed by the Spatial Web Foundation and the IEEE P2874
+Spatial Web, Architecture and Governance Working Group.
+
+Copyright Spatial Web Foundation. All rights reserved.
