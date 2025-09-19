@@ -1,0 +1,28 @@
+== Spatial Web development
+
+The Spatial Web Protocol, Architecture and Governance specification defines a reference model
+for development of the Spatial Web. The specification was based in-part on early prototypes of
+HSML, HSTP and Spatial Web nodes. This iterative and coordinated development of
+specifications and implementations will continue for increasing maturity of the Spatial Web.
+
+Development has begun of SWF Implementation Specifications for HSML, HSTP , UDG, and AIS
+Rating System. Development of Spatial Web Governance and Domain-specific Architectures will
+quickly follow. SWF Implementation Specifications provide suﬃcient detail to allow a developer to
+implement the specification and verify compliance to the specification. SWF Implementation
+Specifications fulfill requirements listed in the Spatial Web Protocol, Architecture and Governance
+specification. SWF Implementation Specifications will be developed in unison with
+implementation of Spatial Web nodes.
+
+The Spatial Web Foundation fosters implementation to increase the functionality of the emerging
+Spatial Web. SWF interoperability sprints are key to synchronization of independent code
+developments with development of the implementation specifications. Running code is essential
+evidence that the specifications are ready for adoption as consensus standards. Sprints will
+initially focus on simple use cases. Subsequent sprints will implement and test incrementally
+more complex use cases. The early sprints provide the foundation for later sprints demonstrating
+the application scenarios listed in the Stakeholder viewpoint discussed above. As the capability
+and complexity continues to grow, Domain-specific architectures will emerge and will be
+managed by Spatial Web domain working groups.
+
+Development of the Spatial Web based on the Spatial Web Protocol, Architecture and Governance
+specification will lead to the transformations identified by Rene and Mapes: The Spatial Web will
+connect humans, machines and AI to transform the World.

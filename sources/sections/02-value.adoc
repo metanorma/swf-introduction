@@ -1,0 +1,48 @@
+.Table 2 — Summary listing of scenarios
+|===
+| Spatial Extent | Enterprise | Community | Humanity
+
+| Indoor
+|
+Warehouse Robot +
+Industrial XR
+|
+|
+
+| Urban
+|
+|
+Cultural location tourism +
+Urban autonomous mobility
+|
+Urban digital twin/Smart City
+
+| Global
+|
+| Global supply chain
+|
+Digital earth: Greenhouse Gasses +
+Entertainment XR
+
+|===
+
+Figure 2 shows an example scenario diagram for the Warehouse robot scenario. The scenario
+involves an employee and a robot working together to retrieve a book from an automated
+warehouse bin and packing it for shipping. The steps in the scenario include Spatial Web Entities
+in all caps. Each step in the scenario is implemented by a Distributed computing use case.
+
+.Warehouse robot application scenario
+image::figure-02.png[]
+
+
+Figure 3 shows the scenario of applying Urban Digital Twin (UDTs) to Smart Cities. This scenario
+shows how the Spatial Web provides interoperability of UDTs and AI agents to address urban
+sustainability with a focus on energy. Energy system modeling informs action plans developed in
+the Spatial Web multi-scale cognitive computing ecosystem to benefit next generation cities. The
+Digital Twin Domains in this scenario - both geographic and energy grid UDTs - are detailed in
+Domains and identities clause of the full specification. Each step in the scenario is implemented
+by a Distributed computing use case.
+
+.Urban digital twin / Smart city scenario
+image::figure-03.png[]
+

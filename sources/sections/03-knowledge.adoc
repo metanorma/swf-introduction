@@ -1,0 +1,224 @@
+== Knowledge model
+
+A knowledge model is an abstract description of a system using concepts and ideas. The model
+represents the conceptual entities that define the system and the relationships between the
+entities. Figure 4 provides an overview of the Knowledge Model as described in the following
+clauses.
+
+.Knowledge model overview
+image::figure-04.png[]
+
+=== Space, time, and hyperspace
+
+The term 'hyperspace' is used to capture a generalized concept of space, in an acknowledgment
+that not only do Euclidean and geographic spaces have spatial structure, but also many other,
+more abstract data types. These spaces and types can be combined to form complex spaces that
+can be navigated. The concept of hyperspace is derived from category theory, from which it
+inherits its compositionality, and is fundamental for the Spatial Web. Figure 5 provides a summary
+of the various classes of hyperspace.
+
+.Basic classes of hyperspace
+image::figure-05.png[]
+
+== Domains and identities
+
+Typical types of Spatial Web Domains are shown in Table 3. Domains may encompass more than
+one type. Domains may exist for variable lengths of time. In addition to permissions, Domains
+include information about each entity's temporality and roles, functions assumed, or parts played
+by the entity or thing in a particular place and time, and information regarding the provenance and
+material composition of the entity.
+
+.Domain types based on their defining characteristics
+[cols="1,3"]
+|===
+|Type of Domain |Description
+
+|Geographic
+|Implicitly or explicitly associated with a location
+
+|Concept
+|Intangible concepts and abstract ideas shared by a community of users
+
+|Organization
+|Pertaining to membership within an entity
+
+|Agent
+|Individual domains with active states and agency
+
+|Person
+|Special subtype of agent maintaining a self-sovereign identity
+
+|Thing
+|Bounded items without agency
+|===
+
+Every Spatial Web entity, including Domains, shall include a Spatial Web Identifier (SWID) using
+W3C did-core. Spatial Web entities are registered and linked in the Universal Domain Graph (UDG).
+The Spatial Web provides a registration capability as a system of distributed, decentralized
+registries. The Spatial Web Foundation, on behalf of the public, shall be the Registration Authority
+governing general rules for changes to the UDG, such as Domain Authority, allowable Domain
+names, Domain claim dispute resolution, cost of registration, and restrictions on the addition or
+deletion of names.
+
+There shall be a Domain Authority for every Spatial Web Domain. The Domain Authority shall be
+an entity that is credentialed to define within a Domain the norms and terms under which
+contracts are created for: agents, actions and credentials within that Domain.
+
+Spatial Web Domains can be geopolitical (e.g., Earth, countries), authority-driven (e.g., BigCo,
+SpatialWebFoundation) or IP work-related (e.g., ArthurianWorld). A given Spatial Web Domain
+identifier can have multiple associated qualified names. Authoritative credentialed domains can
+be issued with unique relationships defined in SPACEs (.Earth).
+
+The Spatial Web enables the capability for all human persons to receive without cost an
+irrevocable and non-transferable individual Spatial Web Domain, with respect to which that
+individual will, upon acceptance, be registered as a Domain Authority at no cost (where the
+exercise of such authority may be subject to limits imposed by relationships to other authorities,
+e.g. citizenship).
+
+The Spatial Web shall be a Global Commons network of networks; a portion of spaces registered
+in the UDG shall be gateways to private networks managed by network administrators. The UDG
+shall be a publicly accessible knowledge graph that serves as a key infrastructure component of
+the Spatial Web. The UDG shall be similar to existing knowledge bases held within current web
+platforms but shall be a public utility compared to proprietary platform knowledge. The UDG is a
+hypergraph containing relationships between all known SWIDs in the Spatial Web. The UDG is
+composed of nodes and links where the nodes are ENTITIES, and the links are relations between
+the ENTITIES. Figure 6 shows a notional visualization of the UDG with varying cluster patterns of
+the nodes. Based on current large knowledge graphs and a DGGS of the Earth where every cell is
+a decimeter-scale node, the global UDG contains approximately 1014 nodes.
+
+.Notional structure of the UDG
+image::figure-06.png[]
+
+
+=== Agents and activities
+
+==== Spatial Web Agents
+
+An Agent is a Domain that senses and responds to its environment, maintains a
+model of its environment, and takes actions to achieve its goals (Figure 7). An
+Agent type of Domain is characterized by its capacity for agency. It engages in
+Activities, which are actions aimed at effecting changes in its environment
+(from ISO/IEC 22989). An Agent may include natural intelligence or artificial
+intelligence.
+
+.Agent-based paradigm
+image::figure-07.png[]
+
+Agents can be both digital, such as software applications or AI systems, and cyber-physical, like
+robots or autonomous vehicles. Their core functionalities include sensing and perceiving the
+environment, which are vital for gathering data, formulating plans, and making informed decisions
+to execute goal-directed actions. Physical or digital actuation capabilities enable Agents to
+implement changes within their environment and interact with other Entities, including other IoT
+devices, services, digital interfaces, and other Agents. Their functionality extends to simulating
+real-world scenarios, modeling spatial interactions, manipulating virtual or physical constructs,
+and facilitating user interactions by providing guidance, information, or immersive experiences.
+
+Agents exhibit a spectrum of behaviors that reflect their varying levels of intelligence, from simple
+reactive response to complex, goal-oriented actions and sophisticated social interactions. The
+capacity for enacting autonomous, goal-oriented behavior underpins the functionality,
+interoperability, adaptability, and realization of shared intelligence within the Spatial Web (Friston,
+et.al. [B22]). The Autonomous Intelligent Systems (AIS) Rating System provides a standardized
+mechanism for evaluating and identifying the various capabilities of autonomous intelligent
+Agents. This system establishes a flexible and structured framework, enabling developers,
+policymakers, and other agents to effectively identify, interact with, and manage agent activities,
+serving as a key component of the Spatial Web governance framework.
+
+==== HSML Activities
+
+HSML Activities refer to the actions or sets of actions performed by Agents. Activities can range
+from simple tasks like retrieving information or updating a status, to complex operations involving
+multiple steps, decisions, and interactions with other Agents. Activities are essential for
+representing and translating Agents' objectives into concrete actions, facilitating their interaction
+with the environment, and coordination with other Agents. The HSML framework supports this
+relationship by offering a unified language and protocols for defining, instantiating, executing, and
+monitoring Agent Activities. This standardization is crucial for ensuring interoperability among
+diverse systems and Agents, ensuring that Agents can interact with and understand each other,
+as well as with the digital and physical environments they operate in.
+
+== Credentials, norms, and contracts
+A Credential is a set of one or more claims made by a Domain. A Norm is a standard or principle
+of right action serving to guide, control, or regulate proper and acceptable behavior, which can be
+specified in terms of the conditions under which it is binding on agents’ actions and the
+conditions under which such actions conform or fail to conform to it. A Contract is a binding
+agreement between two parties, especially enforceable by law, or a similar internal agreement
+wholly within an organization.
+
+HSML Activities, as described in the previous clause, represent possible actions on the part of
+Agents operating on the Spatial Web, and are defined in terms of the conditions they aim to bring
+about, specified in terms of HSML data structures. Activity conditions can, for example, be
+represented as a query run against the HSML representation of a Domain, which evaluates to a
+Boolean indicating whether or not the Activity’s defining conditions have been satisfied in the
+Domain model.
+
+The execution of Spatial Web Activities within Domain(s) may also be subject to conditions
+imposed unilaterally, mutually agreed upon or negotiated between parties to a transaction.
+Examples include provisions in a contract for work or transfer of ownership, as well as Domain
+rules that actors within a Domain explicitly or implicitly agree to abide by, including laws and
+regulations issued by various authorities. These conditions can similarly be represented as
+expressions evaluable against the state of HSML Domain models.
+
+HSML Contracts and Activities encode expectations about how certain entities will behave,
+conditional on specific assumptions encoded as Activity conditions (predicates). Activities
+encoding a machine-readable description of normative constraints on Agent behavior in an
+Activity’s initial conditions and the consequences of conforming to or violating the rule in its
+resulting conditions can represent rules or other normative structures. Agents operating in a
+governed Domain may then assent to this form of governance by explicitly signing a Contract to
+participate in the enforcement Activity, or Domain-specific sub-types of Activities may be created
+based on such normative constraints, as described above. Where these constraints are applied,
+governance of Activities within relevant Domains is accomplished by granting Credentials for only
+those Activity types found consistent with Domain Authority rules.
+
+Activities occurring within a Domain are subject to rules (more broadly, norms) enforced by
+relevant Domain Authorities, but this entails nothing about the legitimacy, in absolute terms, of
+the rules specified by such Authorities, or their claimed right to impose or enforce them. In
+particular, the authority of a Domain Authority over any Domain is limited by factors such as the
+existence of higher-level Domain Authorities in a Domain hierarchy, and by the self-sovereignty of
+some Domains, such as those representing individual human beings.
+
+The Spatial Web Foundation takes no position on which norms enforced by Domain Authorities
+are binding on any given individual, organization, nation, etc., but allows participants in the Spatial
+Web to represent their normative claims by way of rules associated with credentialed Domain
+Authorities, as well as via Contracts. Some Domain Authorities in the Spatial Web will mirror
+relevant authorities in the real world (e.g. sovereign nations, which, like sovereign human
+individuals, have the right to control over the Spatial Web Domains representing their territories).
+The infrastructure of the Spatial Web is not designed to settle conflicts among Domain
+Authorities, but to represent such conflicts accurately in the form of competing claims, each with
+its provenance. Participation in a Domain (via the execution of Activities by a Spatial Web agent)
+may involve explicit consent to the terms governing that Domain, via HSML Contract.
+
+=== Spatial Web ontology
+
+The Spatial Web ontology is composed of Entities that are the primary concepts used across the
+Spatial Web and in HSML. HSML implements the Spatial Web ontology as a set of schemas that
+enable increased coherence across diverse datasets without sacrificing flexibility.
+The Spatial Web ontology Figure 8 defines several classes. All classes are types of the Entity base
+class. The Spatial Web ontology builds upon several existing ontologies, i.e., IEEE 7007-2021
+[B40], ISO/IEC 21838-1:2021 [B55], Suggested Upper Merged Ontology (SUMO). Available at:
+[B117], and Pease [B113].
+
+.Spatial Web entity relationship diagram
+image::figure-08.png[]
+
+
+Figure 9 depicts the core relationships that are obtained in the HSML ontology among (a)
+AGENTs, (b) ACTIVITY Schemas, (c) ACTIVITIES (aka ACTIVITY Instances), (d) CONTRACTS. A
+Requester is an AGENT requesting the performance of a task or other CONTRACT. The loop
+connection on ACTIVITY Schema represents the composition of Complex ACTIVITY Schemas.
+
+.Agent-Contract-Activity relationship diagram
+image::figure-09.png[]
+
+=== Queries
+
+Queries on the Spatial Web are expressed using HSML and are used to identify information about
+DOMAINS in the Universal Domain Graph. HSML enables a variety of query types, including but
+not limited to:
+
+* Bootstrapping/Context queries
+* Activity queries
+* Hyperspace range queries
+* Abstract data type query
+* Graph queries
+* Semantic queries
+* Vector queries
+

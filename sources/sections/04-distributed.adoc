@@ -1,0 +1,132 @@
+== Distributed computing
+
+=== Distributed computing continuum
+
+The Spatial Web is a distributed computing system with nodes connected by communications
+networks. Distributed computing is a model of computing in which a set of nodes coordinates its
+activities by means of digital messages passed between the nodes (Definition from ISO/IEC TR
+23188:2020, 3.1.1 [B58]). The Spatial Web distributed computing model is organized as a set of
+tiers with each tier containing a set of nodes. Nodes within a tier are similar and may be close to
+each other in a network sense of close, e.g. enterprise nodes. The Spatial Web distributed
+computing model contains four tiers as shown in Figure 10.
+
+.Distributed computing continuum
+image::figure-10.png[]
+
+=== Distributed computing concerns
+
+The Spatial Web distributed computing design complies with the concerns in Table 4.
+
+.Distributed computing concerns for the Spatial Web
+[cols="1,3"]
+|===
+|Concern |Description
+
+|Internet scale
+|The Spatial Web shall be inherently scalable from the simplest interoperation of two systems to the interoperability of a dynamic coalition of distributed, autonomous, and heterogeneous systems within a complex and global ecosystem containing millions of unique entities.
+
+|Interoperability and heterogeneity
+|The Spatial Web shall span over many existing heterogeneous systems with differing protocols, data types, and applications. The Spatial Web shall provide Interoperability which is the ability of two or more systems to exchange information and mutually use the information that has been exchanged.
+
+|Open standards
+|The Internet has succeeded because of its purposeful avoidance of any single controlling entity IETF RFC 9518 [B46]. Architectural design provided by open standards offers control over this sort of centralization, providing a balance of innovation and consolidation.
+
+|Deployment across continuum
+|Deployments of the Spatial Web shall take advantage of the features in the different layers of the continuum.
+
+|Mobility, automatic configuration
+|Nodes in the Spatial Web may be mobile and transiently connected to networks. The Spatial Web system supports discoverability and automatic configuration of Spatial Web nodes.
+
+|Real-time capability
+|The Spatial Web is designed to operate with communication network performance where bandwidth ranges from hundreds of gigabits per second to several terabits per second (i.e. having latency in the sub-millisecond range).
+
+|High latency / low connectivity network and device support
+|While the Spatial Web, and HSTP in particular, enables real-time capabilities, it also supports high latency / low connectivity networks. This support is implicit in the definitions of discovery and automatic configuration, but important to recognize in contrast to the real-time capabilities.
+
+|Location Awareness for nodes
+|For some Sensor Web nodes, application-level awareness of the node's physical location may be necessary. The Sensor Web enables application domains to enable location awareness.
+
+|Safety
+|Spatial Web implementations will need to consider reducing the risk of harm or damage to an acceptable level. When the Spatial Web is anticipated to operate in safety critical operations, additional analysis beyond that taken for the design of this Reference Model should be taken to ensure the risk is appropriate for the application.
+
+|Resilience
+|Resilience is the ability of a system to adapt and continue to perform their functions in the presence of faults and failures ISO/IEC 30141:2018 [B70]. The Spatial Web should be designed to be resilient to faults.
+
+|Zero-Trust Security
+|Spatial Web relies upon zero-trust security concepts. Zero Trust requires all users to be authenticated, authorized, and continuously validated for security configuration before being granted access to applications and data.
+|===
+
+
+=== Spatial Web nodes
+
+The Spatial Web is a set of distributed computing nodes with messages passing between the
+nodes. The specification defines these canonical nodes:
+
+* Spatial Web client nodes
+** Spatial Web browser
+** Spatial Web application client
+** Immersive experience client
+
+* Cloud nodes.
+** UDG node
+** HSML content node
+** Processing nodes
+** Data warehouse:large KBs, Digital Twins, Geo datastores
+** AI Agent
+
+* Edge nodes.
+** IoT gateway
+** HSML content node
+** AI agent.
+
+* Physical devices
+** Embedded node
+** Moving platform with sensors and actuator; Includes robots
+** Stationary platform with sensors and actuators;
+
+=== HSTP operations
+
+HSTP enables nodes to communicate to one another to execute functionality and share HSML
+data. HSTP is an application-layer protocol. A single request may generate multiple responses. A
+single specific response may require multiple collaborating requests. HSTP sends messages in
+the form of HSTP Operations, passed over a transport protocol. HSTP requests and responses
+are encoded using profile encoding formats defined by the HSML Implementation Specification.
+Figure 11 shows a simple exchange where one domain queries another regarding its capabilities.
+
+.HSTP operation example: simple lookup
+image::figure-11.png[]
+
+=== HSTP protocol bindings
+
+HSTP is a generic and generalizable protocol designed to enable the standardized
+communication between systems that are required to build a coherent, decentralized, secure, and
+privacy-respecting Spatial Web.
+
+HSTP is designed to be consistent with multiple protocol bindings (Figure 12). These protocol
+bindings are used to facilitate communication and data transfer between systems in various
+contexts. HSTP provides a common semantic layer for each of these protocol bindings, enabling
+HSTP-compliant systems to communicate with one another regardless of the specific protocol
+binding being used. This allows HSTP to provide a consistent and standardized way of
+exchanging information and executing functionality across different types of systems and
+applications.
+
+.HSTP bindings
+image::figure-12.png[]
+
+=== Distributed computing use cases
+
+Use cases in this clause show exchanges of messages between the Spatial Web nodes listed in
+computing architectures and Spatial Web Nodes. The messages in the use cases make use of
+HSML and HSTP . Use cases are defined as generally as possible to allow a minimum number of
+use cases to achieve events in a diverse set of scenarios. Coherence of the Spatial Web
+architecture is demonstrated by the use cases satisfying the needs of the Application Scenarios.
+Each use case is defined using a sequence diagram. The sequence diagrams show dynamic
+behavior as interactions among distributed Spatial Web nodes via sequences of HSTP messages
+exchanged. A summary of the Spatial Web use cases is provided in Figure 13.
+
+.Summary of distributed computing use cases
+image::figure-13.png[]
+
+A use case diagram is provided in the specification for each use case. The use case diagrams
+show the sequence of messages exchanged between canonical nodes necessary to achieve the
+function identified for the use case.

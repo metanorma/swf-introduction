@@ -1,0 +1,69 @@
+= Introduction to Spatial Web Protocol, Architecture & Governance
+:docnumber: 0
+:edition: 1
+:revdate: 2024-06-03
+:copyright-year: 2024
+:language: en
+:title-main-en: Introduction to Spatial Web Protocol, Architecture & Governance
+:committee: SWF
+:committee-type: technical
+:mn-document-class: swf
+:mn-output-extensions: xml,html,pdf,rxl
+:doctype: standard
+:status: published
+:docidentifier: SWF 0:2024 (1.0.0)
+:imagesdir: images
+:local-cache-only:
+:toc-figures: true
+:toc-tables: true
+:comment: [backcover] leadership team list below
+:fullname: Gabriel René
+:role-description: leadership
+:contributor-position: Executive Director / Founder
+:fullname_2: Dan Mapes
+:role-description_2: leadership
+:contributor-position_2: Managing Director / Founder
+:fullname_3: Bastiaan den Braber
+:role-description_3: leadership
+:contributor-position_3: Director of Operations
+:fullname_4: George Percivall
+:role-description_4: leadership
+:contributor-position_4: Distinguished Engineering Fellow
+:fullname_5: Dan Richardson
+:role-description_5: leadership
+:contributor-position_5: Director of Market Analysis
+:fullname_6: Dr. Sarah Grace Manski
+:role-description_6: leadership
+:contributor-position_6: Senior Ethics Advisor
+:comment: [backcover] participants list below
+:fullname_7: Mahault Albarracin
+:fullname_8: Scott Carroll
+:fullname_9: Jason Fox
+:fullname_10: Jacqueline Hynes
+:fullname_11: Alex Kiefer
+:fullname_12: Sarah Grace Manski
+:fullname_13: Dan Mapes
+:fullname_14: George Percivall
+:fullname_15: Christine Perey
+:fullname_16: Capm Petersen
+:fullname_17: Reese Plews
+:fullname_18: Maxwell Ramstead
+:fullname_19: Gabriel Rene
+:fullname_20: Philippe Sayegh
+:fullname_21: Toby St Clere Smithe
+:fullname_22: Prasaanth Sridharan
+:fullname_23: Alec Tschantz
+
+include::sections/00-abstract.adoc[]
+
+include::sections/01-concept.adoc[]
+
+include::sections/02-value.adoc[]
+
+include::sections/03-knowledge.adoc[]
+
+include::sections/04-distributed.adoc[]
+
+include::sections/05-development.adoc[]
+
+include::sections/a0-bibliography.adoc[]

@@ -1,0 +1,65 @@
+== Spatial Web concept
+
+The Spatial Web Protocol, Architecture and Governance specification defines the
+Spatial Web system design by specifying requirements for interoperability and
+governance of cyber-physical systems at global scale, including autonomous
+devices, applications, spatial content and operations. Networked communications
+systems constructed to meet these requirements enable representation of all
+statements and interactions of the physically oriented, socially-constructed
+world to be universally represented in a way that makes them amenable to
+computational modeling and, where applicable, simulation and automation.
+
+The system design includes:
+
+* a shared and linkable knowledge domain architecture (“Architecture”),
+* a common language with which to describe domain elements and their interrelationships,
+* a method for querying and updating the states of those elements (“Protocol”), and
+* the ability to allow access and control of that method (“Governance”).
+
+Collectively these elements are the Spatial Web Standards.
+
+The present specification is comprehensive, encompassing an entire, emerging ecosystem and
+reflecting trends and needs that drive its development, including but not limited to:
+
+* the increasingly graph-like nature of global data,
+* the opportunity autonomic activities using context-aware, cognitive AI,
+* the need for composable systems and applications including the governance of such
+systems,
+* the intrinsic need for secure transactions,
+* the rise of machine learning and neural network computation and edge computing,
+* the need for explainable AI and robotic governance, and
+* the rise of Digital Twins, IoT and sensor meshes.
+
+For further background on these emerging ecosystems and trends, see The Spatial Web [B114].
+
+The Spatial Web is a socio-technical system of systems. The IEEE Global Initiative on Ethics of
+Autonomous and Intelligent Systems [B118] identifies the need for early incorporation of
+socio-technical standards as crucial for aligning AIS with human values, intentions, and
+understanding, and for reducing the risk of behaviors understood by stakeholders to be
+undesirable. As a socio-technical standard, the provisions of the specification define a Spatial
+Web governance framework.
+
+The Spatial Web specification provides a reference model composed of three viewpoints: 1) Value
+for stakeholders, 2) Knowledge model, and 3) Distributed computing. The viewpoints include
+requirements on components of the Spatial Web system. The concepts and requirements of the
+reference model guide subsequent development of Spatial Web Implementation standards and
+domain-specific Spatial Web architectures.
+
+The Spatial Web specification applies an architectural design approach to the Spatial Web
+System (Figure 1). Requirements are identified by examining stakeholder perspectives and
+application scenarios. As a result of design synthesis, architecture components are identified as:
+
+● Hyperspatial Modeling Language (HSML),
+● Hyperspatial Transaction Protocol (HSTP),
+● Universal Domain Graph (UDG),
+● Spatial Web Governance,
+● Domain-specific Architectures, and
+● Autonomous Intelligent Systems (AIS) Rating System.
+
+.System engineering of the Spatial Web
+image::figure-01.png[]
+
+Requirements listed in various clauses of the Spatial Web Specification are assigned to the
+architectural components, e.g., HSML, HSTP , etc. A summary of requirements for each
+component is provided in an Annex of the Standard.
+

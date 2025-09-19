@@ -1,0 +1,28 @@
+[abstract]
+== The Spatial Web
+
+The Spatial Web merges the physical and virtual worlds, transcending geographic
+and national boundaries to create a global commons for expression and
+imagination. This convergence, enabled by decentralizing technologies,
+artificial intelligence, autonomous vehicles, robots, and the Internet of
+Things, heralds a new era of interconnectedness. The Spatial Web is built on the
+foundations of the Internet. The Spatial Web, including the Hyperspatial
+Modeling Language (HSML) and the Hyperspatial Transaction Protocol (HSTP),
+creates a seamless digital-physical reality, leveraging augmented and virtual
+reality and integrating shared values such as privacy, data ownership, and
+autonomy by design. The Spatial Web is an ecosystem of interoperable, autonomous
+AI agents based on open standards including HSML and HSTP.
+
+This document is an introduction to The Spatial Web Protocol, Architecture and
+Governance specification, version D3.1, which defines requirements for the
+interoperability and governance of cyber-physical systems at a global scale,
+including autonomous devices, applications, spatial content, and operations. The
+full specification is developed by the Spatial Web Foundation and the IEEE P2874
+Spatial Web, Architecture and Governance Working Group.
+
+In order to highlight foundational concepts of the Spatial Web — ENTITY,
+ACTIVITY, AGENT, CONTRACT, CHANNEL, CREDENTIAL, DOMAIN, HYPERSPACE, and TIME—
+are represented in this document using uppercase.
+
+[%unnumbered]
+image::figure-00.png[]

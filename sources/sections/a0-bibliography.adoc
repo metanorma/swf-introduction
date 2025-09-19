@@ -1,0 +1,52 @@
+[bibliography]
+== Bibliography
+
+* [[[designing_ecosystems,doi:10.1177/26339137231222481]]]
+
+* [[[IEEE_7007_2021,IEEE Std 7007-2021]]]
+
+* [[[ietf_9518,IETF RFC 9518]]], Centralization, Decentralization, and Internet Standards
+
+* [[[iot_vocab,1]]],
+span:organization[Industry IoT Consortium].
+span:type[booklet]
+span:title[Industry Internet of Things Vocabulary].
+span:date[2022-03-22].
+
+* [[[ISO_IEC_21838-2_2021,ISO/IEC 21838-2:2021]]]
+
+* [[[ISO_IEC_23188_2020,ISO/IEC TR 23188:2020]]]
+
+* [[[ISO_IEC_30141_2018,ISO/IEC 30141:2018]]]
+
+* [[[ontology_pease,1]]],
+span:surname[Pease], span:initials[A.]
+span:type[book]
+span:title[Ontology: A Practical Guide].
+span:date[2011].
+span:publisher[Articulate Software Press]
+pp. span:pages[300].
+span:pubplace[Angwin, CA]
+ISBN: span:docid.isbn[978-1-889455-10-5].
+
+* [[[rene_mapes,1]]],
+span:surname[René], span:initials[G.]
+span:surname[Mapes], span:initials[D.]
+span:type[book]
+span:title[The Spatial Web: How Web 3.0 Will Connect Humans, Machines and AI to Transform the World].
+span:pubplace[San Bernadino, CA].
+span:date[2019].
+
+* [[[ontology_portal,1]]],
+span:title[Suggested Upper Merged Ontology (SUMO)].
+span:type[website]
+Available at: span:uri[https://www.ontologyportal.org]
+
+* [[[ieee_ead,1]]],
+span:organization[The IEEE Global Initiative on Ethics of Autonomous and Intelligent Systems].
+span:title[Ethically Aligned Design:A Vision for Prioritizing Human Well-being with Autonomous and Intelligent Systems, First Edition].
+span:date[2019].
+Available at: span:uri[https://ieeexplore.ieee.org/document/9398613].
+
+* [[[w3c_did,W3C did-core]]], Decentralized Identifiers (DIDs) v1.0
+
